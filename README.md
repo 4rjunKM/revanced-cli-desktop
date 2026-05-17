@@ -1,2 +1,5 @@
-# revanced-cli-desktop
-Material 3 Expressive Windows frontend for ReVanced CLI with real PowerShell patch execution.
+# Firebase Studio
+
+This is a NextJS starter in Firebase Studio.
+
+To get started, take a look at src/app/page.tsx.
