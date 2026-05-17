@@ -1,4 +1,6 @@
-<img src="assets/banner.png" width="100%">
+<p align="center">
+  <img src="./assets/banner.png" width="100%">
+</p>
 
 <h1 align="center">ReVanced CLI</h1>
 
@@ -17,7 +19,8 @@ Material 3 Expressive Windows frontend for ReVanced CLI with real PowerShell pat
 
 # ReVanced CLI
 
-ReVanced CLI is a modern Windows desktop frontend built for the official ReVanced CLI patching workflow.  
+ReVanced CLI is a modern Windows desktop frontend built for the official ReVanced CLI patching workflow.
+
 The application provides a clean Material 3 Expressive interface while executing real patching operations through PowerShell in the background.
 
 This project is designed to feel like a native Google Pixel developer tool for Windows.
@@ -43,25 +46,25 @@ This project is designed to feel like a native Google Pixel developer tool for W
 
 ## Dashboard
 
-![Dashboard](assets/dashboard.png)
+![Dashboard](./assets/dashboard.png)
 
 ---
 
 ## Supported Applications
 
-![Supported Apps](assets/supported-apps.png)
+![Supported Apps](./assets/supported-apps.png)
 
 ---
 
 ## Theme Settings
 
-![Theme Settings](assets/settings-theme.png)
+![Theme Settings](./assets/settings-theme.png)
 
 ---
 
 ## Wallpaper & Dynamic Styling
 
-![Wallpaper Settings](assets/settings-wallpaper.png)
+![Wallpaper Settings](./assets/settings-wallpaper.png)
 
 ---
 
@@ -89,7 +92,8 @@ through PowerShell while streaming live logs directly inside the desktop interfa
 
 ## Windows
 
-- Windows 10 or Windows 11
+- Windows 10
+- Windows 11
 
 ## Java Runtime
 
@@ -101,23 +105,21 @@ https://www.azul.com/downloads/?version=java-11-lts&package=jre#zulu
 
 # Required Files
 
-Users must provide:
-
 | File | Description |
 |---|---|
-| revanced-cli.jar | Official ReVanced CLI |
-| patches.rvp | ReVanced patch bundle |
-| input.apk | APK file to patch |
+| `revanced-cli.jar` | Official ReVanced CLI |
+| `patches.rvp` | ReVanced patch bundle |
+| `input.apk` | APK file to patch |
 
 ---
 
 # Supported Applications
 
-The supported application catalog is automatically synchronized from:
+The supported application catalog is synchronized from:
 
 https://github.com/Jman-Github/ReVanced-Patch-Bundles
 
-The application checks the repository and updates compatibility information when syncing.
+The application checks the repository and updates compatibility information during synchronization.
 
 ---
 
@@ -129,11 +131,15 @@ The application checks the repository and updates compatibility information when
 git clone https://github.com/4rjunKM/revanced-cli-desktop.git
 ```
 
+---
+
 ## Install Dependencies
 
 ```bash
 npm install
 ```
+
+---
 
 ## Run Development Environment
 
