@@ -13,7 +13,7 @@
   <img src="https://img.shields.io/badge/framework-Tauri-8B5CF6?style=for-the-badge">
   <img src="https://img.shields.io/badge/frontend-Next.js-000000?style=for-the-badge">
   <img src="https://img.shields.io/badge/design-Material%203%20Expressive-84CC16?style=for-the-badge">
-  <img src="https://img.shields.io/badge/license-MIT-F97316?style=for-the-badge">
+  <img src="https://img.shields.io/badge/license-GPL%203.0-F97316?style=for-the-badge">
 </p>
 
 ---
@@ -103,8 +103,8 @@ java -jar revanced-cli.jar patch -p patches.rvp -o patched.apk input.apk
 
 through PowerShell while streaming live logs directly into the desktop interface.
 
-No fake patching.
-No simulated logs.
+No fake patching.  
+No simulated logs.  
 Everything runs locally on your machine.
 
 ---
@@ -270,4 +270,6 @@ Users are responsible for complying with the terms and licensing of the applicat
 
 # License
 
-MIT License
+This project is licensed under the GNU General Public License v3.0 (GPL-3.0).
+
+See the [LICENSE](./LICENSE) file for more information.
